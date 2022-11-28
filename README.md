@@ -17,12 +17,13 @@ Software Requirements - 
 
 Steps to run the code:
 
+
 1) Windows
 
-**NOTE**: If your NVIDIA CUDA-enabled compute device has more than 4GB of VRAM (Video Memory), please use x64 Native Tools Command Prompt, as Developer Command Prompt is a 32-bit application that cannot access memory larger than 4GB.
-
+    **NOTE**: If your NVIDIA CUDA-enabled compute device has more than 4GB of VRAM (Video Memory), please use x64 Native Tools Command Prompt, as Developer Command         Prompt is a 32-bit application that cannot access memory larger than 4GB.
+    
     a) If you have Microsoft Visual C++ installed along with CUDA Toolkit, then just go for running the batch file as Build.bat inside Developer Command Prompt.
-
+    
     b) If you do not have Microsoft Visual C++ installed, you need to install it using Visual Studio, not Visual Studio Code :)
 
 
@@ -35,11 +36,13 @@ Steps to run the code:
 
 3) macOS: 
 
-Unfortunately, as macOS has dropped NVIDIA support :(, Mac users cannot test this code, from macOS Mojave (10.14) onwards. You can, however, test it up to macOS     10.13 i.e., macOS High Sierra if you have a compatible NVIDIA card.
+    Unfortunately, as macOS has dropped NVIDIA support :(, Mac users cannot test this code, from macOS Mojave (10.14) onwards. You can,       however, test it up to       macOS 10.13 i.e., macOS High Sierra if you have a compatible NVIDIA card.
+
 
 
 Interpreting the Output
 
 Basically, what you will get on your command prompt or terminal is a complete AES encryption and decryption status performed on a 6K x 6K image. You will also be able to view your GPU's detailed information.
+
 
 Thanks :D
